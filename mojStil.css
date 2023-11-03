@@ -1,0 +1,36 @@
+.firstImage{
+    background-image: url(imgs/travel_blog.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.whatweoffer{
+    text-align: center;
+    margin: 30px 100px;
+}
+
+.grid-item2{
+    width: 150px;
+    height: 400px;
+   
+}
+
+.grid-container2{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    justify-items: center;
+}
+h2{
+    color: orange;
+}
+.secondImage{
+    height:1000px;
+    background-image: url(imgs/contest_image.jpg);
+    border-top: 5px solid orange;
+    display: grid;
+    border-bottom: 2px solid black;
+}
+
