@@ -1,36 +1,202 @@
-.firstImage{
+.firstImage {
     background-image: url(imgs/travel_blog.jpeg);
     background-size: cover;
     background-position: center;
     height: 500px;
 }
 
-.whatweoffer{
+.whatweoffer {
     text-align: center;
     margin: 30px 100px;
 }
 
-.grid-item2{
+.grid-item2 {
     width: 150px;
     height: 400px;
-   
+
 }
 
-.grid-container2{
+.grid-container2 {
     display: grid;
     gap: 5px;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     justify-items: center;
 }
-h2{
+
+h2 {
     color: orange;
 }
-.secondImage{
-    height:1000px;
+
+.secondImage {
     background-image: url(imgs/contest_image.jpg);
-    border-top: 5px solid orange;
+    background-size: cover;
+    background-position: center;
+    height: 480px;
+    border-top: 2px solid orange;
     display: grid;
-    border-bottom: 2px solid black;
+    justify-content: center;
+    padding-top: 25px;
 }
 
+.txt2 {
+    max-width: 200px;
+    display: block;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-style: 100;
+}
+
+.button1 {
+    background: none;
+    font-size: 20px;
+    border: 2px solid black;
+
+}
+
+.button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.destination{
+    text-align: center;
+    margin: 30px 100px;
+}
+.grid-container3 {
+    display: flex;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    justify-items: center;
+   
+
+   
+}
+.grid-item3 {
+    width: 350px;
+    height: 450px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.item-7{
+    background-image: url(imgs/venice.jpg);
+    
+}
+.item-8{
+    background-image: url(imgs/paris.jpg);
+}
+.item-9{
+    background-image: url(imgs/rome.jpg);
+}
+
+h5{
+    display: block;
+    margin-block-start: 3.85em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-style: 100;
+    font-size: 34px;
+    color:white;
+    
+}
+.txtDecoration{
+    color: white;
+    display: block;
+    max-width: 350px; 
+   
+    
+} 
+.dstBtn{
+    border: 2px solid white;
+    opacity: 0.6;
+    background-color: rgb(175, 175, 51);
+    color: white;
+    padding: 5px 15px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+}
+
+.gal{
+    color: white;
+    max-width: 400px;
+    display: block
+}
+.galleryImage{
+  
+        background-image: url(imgs/contest_image.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        border-top: 2px solid orange;
+        display: grid;
+        justify-content: center;
+        padding-top: 25px;
+
+}
+
+
+/****** gallery*****/
+.grid-container4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    justify-items: center;
+    gap: 5px;
+   
+
+   
+}
+.grid-item4 {
+    width: 200px;
+    height: 300px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.item10{
+    background-image:url(imgs/athen.jpg) ;
+}
+.item11{
+    background-image:url(imgs/havana.jpg) ;
+}
+.item12{
+    background-image: url(imgs/paris.jpg) ;
+}
+.item13{
+    background-image:url(imgs/london.jpeg) ;
+}
+.item14{
+    background-image: url(imgs/rio.jpg);
+}
+.item15{
+    background-image:url(imgs/quiske.jpg) ;
+}
+.item16{
+    background-image: url(imgs/rome.jpg)  ;
+}
+.item17{
+    background-image:url(imgs/taj_mahal.jpg) ;
+}
+.item18{
+    background-image: url(imgs/thailand.jpg);
+}
+.item19{
+    background-image: url(imgs/venice.jpg);
+}
